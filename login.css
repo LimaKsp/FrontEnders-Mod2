@@ -20,9 +20,11 @@ body {
   font-size: 24px;
   backdrop-filter: brightness(95%);
 }
+
 body * {
   box-sizing: border-box;
 }
+
 a {
   text-decoration-color: white;
 
@@ -51,37 +53,37 @@ button:hover {
 /* Nav */
 .nav1 {
   width: 100%;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav p {
   text-shadow: 2px 1px 0px rgba(0, 0, 0, 1);
-    font-family: "Gagalin";
-    font-size: 1.1em;
-    color: whitesmoke;
+  font-family: "Gagalin";
+  font-size: 1.1em;
+  color: whitesmoke;
 }
 
 .logo {
   height: 5vh;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: 6%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6%;
 }
 
 .topicos {
   width: 50%;
-    height: 5vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 6%;
-    margin-left: 21%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6%;
+  margin-left: 21%;
 }
 
 nav p:hover {
@@ -91,13 +93,13 @@ nav p:hover {
 
 .botoes {
   width: 20%;
-    height: 3vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 10px;
-    margin-right: 5%;
-    margin-bottom: 1%;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  margin-right: 5%;
+  margin-bottom: 1%;
 }
 
 span#burguer {
@@ -125,7 +127,8 @@ main {
   justify-content: center;
   align-items: center;
 }
-.left-login > h1 {
+
+.left-login>h1 {
   font-size: 3vw;
   color: blueviolet;
 }
@@ -138,9 +141,11 @@ main {
   text-shadow: black 1px 0 10px;
   font-size: 2vw;
 }
+
 .left-login-image {
   width: 25vw;
 }
+
 .right-login {
   width: 50vw;
   height: 90vh;
@@ -161,13 +166,15 @@ main {
   border-radius: 20px;
   box-shadow: 0px 10px 40px;
 }
-.card-login > h1 {
+
+.card-login>h1 {
   color: white;
+  text-shadow: 5px 3px 3px black;
   font-weight: 800px;
   margin: 0;
 }
 
-.card-login > a {
+.card-login>a {
   text-align: center;
 }
 
@@ -180,12 +187,12 @@ main {
   margin: 10px 0px;
 }
 
-.textfield > a {
+.textfield>a {
   margin-top: 10px;
   font-size: 1, 5vw;
 }
 
-.textfield > input {
+.textfield>input {
   width: 100%;
   border: none;
   border-radius: 10px;
@@ -198,7 +205,7 @@ main {
   box-sizing: border-box;
 }
 
-.textfield > label {
+.textfield>label {
   color: white;
   margin-bottom: 10px;
 }
@@ -206,7 +213,7 @@ main {
 .btn-login {
   width: 100%;
   /* padding: 16px 0px; */
- margin-bottom: 20px;
+  margin-bottom: 20px;
   border: none;
   border-radius: 8px;
   font-weight: 800;
@@ -222,7 +229,7 @@ main {
     flex-direction: column;
   }
 
-  .left-login > .lefttxt {
+  .left-login>.lefttxt {
     display: none;
   }
 
@@ -311,6 +318,7 @@ main {
   #Email {
     font-size: 15px;
   }
+
   footer {
     width: 100vw;
     height: 10vh;
@@ -326,12 +334,14 @@ main {
     display: flex;
     justify-content: center;
   }
+
   .cntsd {
     width: 33vw;
     height: 10vh;
     display: flex;
     justify-content: center;
   }
+
   .rgtsd {
     width: 33vw;
     height: 10vh;
